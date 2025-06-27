@@ -21,5 +21,8 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a33x
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
