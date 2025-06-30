@@ -29,3 +29,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 BOARD_SHIPPING_API_LEVEL := 31
 PRODUCT_CHARACTERISTICS := phone
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="a33xnsxx-user 15 AP3A.240905.015.A2 A336BXXSEFYH2 release-keys" \
+    BuildFingerprint=samsung/a33xnsxx/essi:15/AP3A.240905.015.A2/A336BXXSEFYH2:user/release-keys \
+    DeviceProduct=a33xnsxx \
+    SystemName=a33xnsxx
