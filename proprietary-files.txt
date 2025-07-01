@@ -43,13 +43,15 @@ vendor/lib64/hw/camera.s5e8825.so
 
 # Camera - Dependencies
 vendor/lib64/libMERTA.so
-vendor/lib64/libexynoscamera3.so
 vendor/lib64/libexynoscamera_merta_plugin.so
 vendor/lib64/libexynoscamera_swlme_plugin.so
 vendor/lib64/libexynoscamera_vpl_plugin.so
 vendor/lib64/liblmecpu.so
 vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
+
+# Camera - Patched HAL
+vendor/lib64/libexynoscamera3.so|29b700ab7b39692192eef72689a19a44a91d722b|ca53dd6735c08c42d0ae9a698b811a21e0ebaa45
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
