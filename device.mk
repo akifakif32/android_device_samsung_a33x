@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
+# Init
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/init/init.a33x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a33x.unify.rc
+
 # Nfc
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung
