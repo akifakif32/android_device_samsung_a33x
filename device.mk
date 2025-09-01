@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/init/init.a33x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a33x.rc \
     $(DEVICE_PATH)/configs/init/init.a33x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a33x.unify.rc
 
 # Nfc

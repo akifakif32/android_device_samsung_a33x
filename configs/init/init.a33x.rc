@@ -1,0 +1,4 @@
+on boot
+    # Permissions for goodix fingerprint
+    chmod 0660 /dev/goodix_fp
+    chown system system /dev/goodix_fp
