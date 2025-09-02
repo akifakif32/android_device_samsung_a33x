@@ -2,3 +2,8 @@ on boot
     # Permissions for goodix fingerprint
     chmod 0660 /dev/goodix_fp
     chown system system /dev/goodix_fp
+
+on fs
+    # SPU
+    wait /dev/block/by-name/spu
+    mount ext4 /dev/block/by-name/spu /spu nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
