@@ -20,6 +20,9 @@ $(call inherit-product, vendor/samsung/a33x/a33x-vendor.mk)
 # Inherit the common makefile from common tree
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 DEVICE_PATH := device/samsung/a33x
 
 # Audio
