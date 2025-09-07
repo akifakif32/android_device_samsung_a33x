@@ -21,6 +21,9 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a33x
 
+# DTBO
+BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/a33x.cfg
+
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
