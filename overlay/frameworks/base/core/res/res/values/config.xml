@@ -83,4 +83,42 @@
 
     <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
     <bool name="config_telephony5gNonStandalone">true</bool>
+
+    <!-- Array of desired screen brightness in nits corresponding to the lux values
+         in the config_autoBrightnessLevels array. The display brightness is defined as the measured
+         brightness of an all-white image.
+
+         If this is defined then:
+            - config_autoBrightnessLcdBacklightValues should not be defined
+            - config_screenBrightnessNits must be defined
+            - config_screenBrightnessBacklight must be defined
+
+         This array should have size one greater than the size of the config_autoBrightnessLevels
+         array. The brightness values must be non-negative and non-decreasing. This must be
+         overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>11</item>
+        <item>15</item>
+        <item>22</item>
+        <item>26</item>
+        <item>31</item>
+        <item>35</item>
+        <item>46</item>
+        <item>62</item>
+        <item>79</item>
+        <item>88</item>
+        <item>93</item>
+        <item>99</item>
+        <item>111</item>
+        <item>130</item>
+        <item>190</item>
+        <item>340</item>
+        <item>500</item>
+        <item>650</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+    </integer-array>
 </resources>
