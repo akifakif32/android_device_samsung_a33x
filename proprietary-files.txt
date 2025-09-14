@@ -16,7 +16,7 @@ vendor/firmware/AP_AUDIO_SLSI.bin:vendor/firmware/SM-A336B/AP_AUDIO_SLSI.bin
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-A336B/calliope_sram.bin
 vendor/firmware/vts.bin:vendor/firmware/SM-A336B/vts.bin
 
-# Audio Firmware - from SM-A336E - A336EDXUDFYE3
+# Audio - Firmware - from SM-A336E - A336EDXUDFYE3
 vendor/firmware/SM-A336E/APDV_AUDIO_SLSI.bin|05b9847e148b2f1b91069217ddf660ffce179706
 vendor/firmware/SM-A336E/AP_AUDIO_SLSI.bin|c8e697ae5486702114827d89b2300cd160e1269d
 vendor/firmware/SM-A336E/calliope_sram.bin|171fcae426425a8998c13dccfacedbd11cdff567
@@ -28,7 +28,7 @@ vendor/etc/wifi/mx140_bt.hcf
 # Camera
 vendor/lib64/hw/camera.s5e8825.so
 
-## Camera - Dependencies
+# Camera - Dependencies
 vendor/lib64/libMERTA.so
 vendor/lib64/libexynoscamera3.so
 vendor/lib64/libexynoscamera_merta_plugin.so
@@ -74,7 +74,7 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 
-# Firmware
+# Firmware - for SM-A336B
 vendor/firmware/NPU.bin:vendor/firmware/SM-A336B/NPU.bin
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A336B/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A336B/os.checked.bin
@@ -89,11 +89,11 @@ vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.ha
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
-# Ramdisk firmware
+# Ramdisk - Firmware
 vendor/firmware/ft3519_a33x.bin:vendor_ramdisk/firmware/ft3519_a33x.bin
 vendor/firmware/gt9895_a33x.bin:vendor_ramdisk/firmware/gt9895_a33x.bin
 
-# Recovery firmware
+# Recovery - Firmware
 vendor/firmware/ft3519_a33x.bin:recovery/root/vendor/firmware/ft3519_a33x.bin
 vendor/firmware/gt9895_a33x.bin:recovery/root/vendor/firmware/gt9895_a33x.bin
 

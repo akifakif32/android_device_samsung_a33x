@@ -14,21 +14,21 @@
 # limitations under the License.
 #
 
-# Inherit the proprietary files
+# Inherit proprietary files
 $(call inherit-product, vendor/samsung/a33x/a33x-vendor.mk)
 
-# Inherit the common makefile from common tree
+# Inherit common makefile
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
-# Setup dalvik vm configs
+# Inherit Dalvik VM configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 DEVICE_PATH := device/samsung/a33x
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
+    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
 # Init
