@@ -9,7 +9,6 @@ sboot.bin_SM-A336B|a4d067af33d2045c8f0ecc64555129fb773acebd
 tzar.img_SM-A336B|181e0484fae0355248d4d3a9684b996988689f07
 tzsw.img_SM-A336B|4aa4547d263e6aded28c7d86cbb554a8d8c822f1
 uh.bin_SM-A336B|98a1ebf2c0d0a8bb6fac5177152162d71783e709
-up_param.bin_SM-A336B|2432974a84788d9445d0b2f8dcccd2cd2c64d4a8
 
 # Firmware for model SM-A336E - from Samsung package version A336EDXUDFYE3
 fld.bin_SM-A336E|3de54c34d00e08b1d0f263cb2323660f09ffc01f
@@ -22,7 +21,6 @@ sboot.bin_SM-A336E|6c170bc1c7476030c70e173c95900431f50fa8d4
 tzar.img_SM-A336E|afe34d3e72d4e761f19d089ecab1e3f74e3396b8
 tzsw.img_SM-A336E|f45397589ad2c518298698c028c0446753052dc4
 uh.bin_SM-A336E|133c44d5247a92da3d6060378288611c5147ba66
-up_param.bin_SM-A336E|2eedb371604b3dbbfac07882d7697f5bbbb5cd6a
 
 # File containing the supported models, one per line
 models|c92fc68de041b174372a06f707f60d5628573dfc
