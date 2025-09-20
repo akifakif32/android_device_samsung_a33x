@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version A336BXXUDFYE3, unless pinned
+# Proprietary files - from Samsung package version A336BXXSEFYH2, unless pinned
 
 # Audio - Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
