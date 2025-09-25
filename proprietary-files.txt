@@ -175,15 +175,6 @@ vendor/tee/SM-A336E/driver/00000000-0000-0000-0000-564c544b4456|ff3d335eaa83a325
 vendor/tee/SM-A336E/ffffffff-0000-0000-0000-000000000030|a062cf7b834e4bd978d203ce2786368752ce3d80
 vendor/tee/SM-A336E/tui/resolution_common/ID00000100|a091703ae478a3da9b16201f559d296a665d7b8d
 
-
-# VaultKeeper
-vendor/bin/vaultkeeperd
-vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
-vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
-vendor/lib64/libstork_shared.so
-vendor/lib64/libvkservice.so
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
-
 # Wi-Fi
 vendor/etc/wifi/mx140_common.hcf
 vendor/etc/wifi/mx140_t_wlan.hcf
