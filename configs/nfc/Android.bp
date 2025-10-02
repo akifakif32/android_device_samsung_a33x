@@ -8,9 +8,3 @@ prebuilt_etc {
     src: "libnfc-nci.conf",
     vendor: true,
 }
-
-prebuilt_etc {
-    name: "libnfc-sec-vendor.conf",
-    src: "libnfc-sec-vendor.conf",
-    vendor: true,
-}
