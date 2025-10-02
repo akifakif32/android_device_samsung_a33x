@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
     mixer_gains.xml \
     mixer_paths.xml
 
+# Fingerprint - Sensor
+PRODUCT_PACKAGES += sensors.samsung
+
 # Init
 PRODUCT_PACKAGES += \
     init.a33x.rc \
