@@ -1,0 +1,18 @@
+//
+// Copyright (C) The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.a33x.rc",
+    src: "init.a33x.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.a33x.unify.rc",
+    src: "init.a33x.unify.rc",
+    sub_dir: "init",
+    vendor: true,
+}
