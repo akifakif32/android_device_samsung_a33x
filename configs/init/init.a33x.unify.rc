@@ -24,6 +24,19 @@ on early-init && property:ro.boot.em.model=SM-A336E
     # TEEgris
     mount none /vendor/tee/SM-A336E /vendor/tee bind
 
+# a33xks (eur_open)
+on early-init && property:ro.boot.em.model=SM-A336N
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A336N/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A336N/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A336N/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A336N/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A336N/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A336N/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A336N/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A336N /vendor/tee bind
+
 # Restart just to be safe.
 on boot
     restart audioserver
