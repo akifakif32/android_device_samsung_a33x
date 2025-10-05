@@ -24,6 +24,19 @@ on early-init && property:ro.boot.em.model=SM-A336E
     # TEEgris
     mount none /vendor/tee/SM-A336E /vendor/tee bind
 
+# a33xub (ltn_open)
+on early-init && property:ro.boot.em.model=SM-A336M
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A336M/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A336M/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A336M/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A336M/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A336M/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A336M/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A336M/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A336M /vendor/tee bind
+
 # a33xks (eur_open)
 on early-init && property:ro.boot.em.model=SM-A336N
     # Firmware blobs
