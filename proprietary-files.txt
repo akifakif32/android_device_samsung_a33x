@@ -35,6 +35,12 @@ vendor/firmware/SM-A336N/AP_AUDIO_SLSI.bin|27e9e26b204c8d971e5cef38495e4cb8596cb
 vendor/firmware/SM-A336N/calliope_sram.bin|fc769e6db0908c4dc69f5208beb4a8ab11635ae9
 vendor/firmware/SM-A336N/vts.bin|530836e4ba1e7db55256b1762ef740ae122e29da
 
+# Audio - Firmware - Placeholders
+vendor/firmware/APDV_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/AP_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/calliope_sram.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vts.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+
 # Bluetooth - Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
@@ -109,6 +115,10 @@ vendor/firmware/SM-A336N/NPU.bin|cdc63bd2a29c8fa1ca9639b369fbdf896df87122
 vendor/firmware/SM-A336N/mfc_fw.bin|9c1ea2ff6cb364f084bc9d2d7bf1f303f3bd79b9
 vendor/firmware/SM-A336N/os.checked.bin|b827ec107cab57c8797c8e7070f9e15948d63e27
 
+# Firmware - Placeholders
+vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 # Ramdisk - Firmware
 vendor/firmware/ft3519_a33x.bin:vendor_ramdisk/firmware/ft3519_a33x.bin
