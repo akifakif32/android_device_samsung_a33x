@@ -66,5 +66,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # UDFPS
-$(call soong_config_set,samsung_udfps,udfps_zorder,0x2000U)
+$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x2000U)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
