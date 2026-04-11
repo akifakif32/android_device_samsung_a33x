@@ -1,0 +1,7 @@
+#Infinity Flags
+ro.product.marketname=Samsung Galaxy A33 5G
+ro.infinity.soc=Exynos 1280
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 90 Hz
+ro.infinity.camera=48MP + 8MP + 5MP
+
