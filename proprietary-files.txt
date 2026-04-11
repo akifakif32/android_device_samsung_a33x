@@ -121,8 +121,8 @@ vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 # Ramdisk - Firmware
-vendor/firmware/ft3519_a33x.bin:vendor_ramdisk/firmware/ft3519_a33x.bin
-vendor/firmware/gt9895_a33x.bin:vendor_ramdisk/firmware/gt9895_a33x.bin
+vendor/firmware/ft3519_a33x.bin:vendor_ramdisk/vendor/firmware/ft3519_a33x.bin
+vendor/firmware/gt9895_a33x.bin:vendor_ramdisk/vendor/firmware/gt9895_a33x.bin
 
 # Recovery - Firmware
 vendor/firmware/ft3519_a33x.bin:recovery/root/vendor/firmware/ft3519_a33x.bin
