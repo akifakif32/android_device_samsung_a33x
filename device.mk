@@ -26,9 +26,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 DEVICE_PATH := device/samsung/a33x
 
 # Audio - Configuration
-PRODUCT_PACKAGES += \
-    audio_board_info.xml \
-    mixer_paths.xml
+PRODUCT_PACKAGES += mixer_paths.xml
 
 # Fingerprint - Sensor
 PRODUCT_PACKAGES += sensors.samsung
