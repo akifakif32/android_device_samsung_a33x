@@ -109,20 +109,20 @@ vendor/firmware/NPU.bin:vendor/firmware/SM-A336B/NPU.bin
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A336B/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A336B/os.checked.bin
 
-# Firmware - from SM-A336E - A336EDXSEFYH2
-vendor/firmware/SM-A336E/NPU.bin|ad0842f2dd0d23f8f2b21644bdfbda6c66595c5d
-vendor/firmware/SM-A336E/mfc_fw.bin|17483bf475f96ff57b38adf06b8c5bd733976c4f
-vendor/firmware/SM-A336E/os.checked.bin|e6d6b0fa9b7501db22167ebafa558615920bd174
+# Firmware - from SM-A336E - A336EDXSIGZE3
+vendor/firmware/SM-A336E/NPU.bin|1a689bcdc7eaa2845c5e649a5ed661712ec407e7
+vendor/firmware/SM-A336E/mfc_fw.bin|f5c132370806869d254e0ad23ce4250da0106b5e
+vendor/firmware/SM-A336E/os.checked.bin|b49ecf896cf05379d4d5b1fb02a7f8dc56f6a2ae
 
-# Firmware - from SM-A336M - A336MUBSEFYH2
-vendor/firmware/SM-A336M/NPU.bin|03784c933ae0ac826c2d5382ab91a51c51b2e317
-vendor/firmware/SM-A336M/mfc_fw.bin|bedadc3e1610072d34d1e5838082f345ba108652
-vendor/firmware/SM-A336M/os.checked.bin|de724bed640e6921cb1b8cf4ebe7b786f8513f8e
+# Firmware - from SM-A336M - A336MUBSIGZE1
+vendor/firmware/SM-A336M/NPU.bin|73c45ac257cd6355c100eb1deb12f5b96a7dbfd2
+vendor/firmware/SM-A336M/mfc_fw.bin|ec294e2bef6f7412ac9aa5cd6687772995d30d9c
+vendor/firmware/SM-A336M/os.checked.bin|f4d16293db36f2012f4fa4d9edae4383162b8edb
 
-# Firmware - from SM-A336N - A336NKSSBFYH1
-vendor/firmware/SM-A336N/NPU.bin|cdc63bd2a29c8fa1ca9639b369fbdf896df87122
-vendor/firmware/SM-A336N/mfc_fw.bin|9c1ea2ff6cb364f084bc9d2d7bf1f303f3bd79b9
-vendor/firmware/SM-A336N/os.checked.bin|b827ec107cab57c8797c8e7070f9e15948d63e27
+# Firmware - from SM-A336N - A336NKSSFGZE2
+vendor/firmware/SM-A336N/NPU.bin|5364fba85dd4957ef4539b002f0be7973dd73919
+vendor/firmware/SM-A336N/mfc_fw.bin|bf5de5fbff45b2bfb9ad3ce27bb5546bfad84f0e
+vendor/firmware/SM-A336N/os.checked.bin|7c9a67add3e4c962fa409916d1a7f38343ba5366
 
 # Firmware - Placeholders
 vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
