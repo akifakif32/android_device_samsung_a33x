@@ -17,23 +17,23 @@ vendor/firmware/AP_AUDIO_SLSI.bin:vendor/firmware/SM-A336B/AP_AUDIO_SLSI.bin
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-A336B/calliope_sram.bin
 vendor/firmware/vts.bin:vendor/firmware/SM-A336B/vts.bin
 
-# Audio - Firmware - from SM-A336E - A336EDXSEFYH2
+# Audio - Firmware - from SM-A336E - A336EDXSIGZE3
 vendor/firmware/SM-A336E/APDV_AUDIO_SLSI.bin|05b9847e148b2f1b91069217ddf660ffce179706
 vendor/firmware/SM-A336E/AP_AUDIO_SLSI.bin|c8e697ae5486702114827d89b2300cd160e1269d
-vendor/firmware/SM-A336E/calliope_sram.bin|1d27be1c4f778e2606e159251da2446ae4198e66
-vendor/firmware/SM-A336E/vts.bin|3c80b6362a0af73c4dbaf85d0569e0d084155e45
+vendor/firmware/SM-A336E/calliope_sram.bin|6e7b38162e0811e78ba6eb3499bf4d8974c7382e
+vendor/firmware/SM-A336E/vts.bin|091b843312e34005943f7d0c96102246ae26bc6c
 
-# Audio - Firmware - from SM-A336M - A336MUBSEFYH2
+# Audio - Firmware - from SM-A336M - A336MUBSIGZE1
 vendor/firmware/SM-A336M/APDV_AUDIO_SLSI.bin|f2c5e42410fa0abffa48b207a963db95cf8fc03a
 vendor/firmware/SM-A336M/AP_AUDIO_SLSI.bin|4c6b5784e82a6efa67bfde07e5ef56cd63cc3f47
-vendor/firmware/SM-A336M/calliope_sram.bin|18f8a687ddace7072c73e0b08a0fbf82ed8e76fc
-vendor/firmware/SM-A336M/vts.bin|8085aeb819503e73a0df6f3cc3e3f308371015fa
+vendor/firmware/SM-A336M/calliope_sram.bin|7dc66fdec8af23065626c3ce496d6c6a10301a80
+vendor/firmware/SM-A336M/vts.bin|2219f7c6330d89eb43525092495d10d3d7cb1d97
 
-# Audio - Firmware - from SM-A336N - A336NKSSBFYH1
+# Audio - Firmware - from SM-A336N - A336NKSSFGZE2
 vendor/firmware/SM-A336N/APDV_AUDIO_SLSI.bin|82b51ae144d6f18e93d7d15a5795fca6813d11a5
 vendor/firmware/SM-A336N/AP_AUDIO_SLSI.bin|27e9e26b204c8d971e5cef38495e4cb8596cb42c
-vendor/firmware/SM-A336N/calliope_sram.bin|fc769e6db0908c4dc69f5208beb4a8ab11635ae9
-vendor/firmware/SM-A336N/vts.bin|530836e4ba1e7db55256b1762ef740ae122e29da
+vendor/firmware/SM-A336N/calliope_sram.bin|39278d1a760dae6c2d15f25a145104922ec9893d
+vendor/firmware/SM-A336N/vts.bin|42b1284078e5abcb0e70b0d30f606ff6007276be
 
 # Audio - Firmware - Placeholders
 vendor/firmware/APDV_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
