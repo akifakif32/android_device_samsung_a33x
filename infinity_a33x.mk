@@ -26,6 +26,7 @@ INFINITY_MAINTAINER := "akif"
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 TARGET_SUPPORTS_BLUR := true
+TARGET_HAS_UDFPS := true
 
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a33x
