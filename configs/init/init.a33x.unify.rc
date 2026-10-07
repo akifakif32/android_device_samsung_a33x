@@ -53,3 +53,12 @@ on early-init && property:ro.boot.em.model=SM-A336N
 # Restart just to be safe.
 on boot
     restart audioserver
+
+on init
+    # Fingerprint
+    write /sys/class/lcd/panel/mask_brightness 486
+
+on boot
+    # Fingerprint
+    chmod 0660 /dev/goodix_fp
+    chown system system /dev/goodix_fp
